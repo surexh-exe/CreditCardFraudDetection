@@ -9,6 +9,7 @@ const nextConfig = {
     unoptimized: true,
   },
   devIndicators: false,
+  turbopack: {},
   webpack: (config) => {
     config.resolve.alias = {
       ...(config.resolve.alias || {}),
