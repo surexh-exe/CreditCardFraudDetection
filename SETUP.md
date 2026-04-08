@@ -159,6 +159,9 @@ python -m ipykernel install --user --name capstone-fraud-detection
 - Netlify
 - Railway
 
+For a step-by-step Vercel deployment guide specific to this repo layout, see:
+- `fraud-detection-website/DEPLOY-VERCEL.md`
+
 > GitHub Pages does NOT work because the app has backend API routes.
 
 See README.md for more deployment options.
